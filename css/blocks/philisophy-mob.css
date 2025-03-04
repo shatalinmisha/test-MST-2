@@ -1,0 +1,48 @@
+.philisophy-mob {
+    position: relative;
+    width: 100%;
+    min-height: 50rem;
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .philisophy-mob {
+        display: block;
+    }
+  }
+
+  .philisophy-mob__text {
+    color: #ffffff;
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+    font-size: 5.8rem;
+    line-height: 6rem;
+    font-weight: 500;
+  }
+
+  .philisophy-mob__inner-bg {
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+    width: 12.5rem;
+    height: 3.7rem;
+    margin: 0 1rem;
+    display: inline-block;
+  }
+
+  .philisophy-mob__inner-bg--one {
+    width: 17rem;
+  }
+  
+  .philisophy-mob__inner-bg--two {
+    width: 24.7rem;
+  }
+  
+  .philisophy-mob__inner-bg--thre {
+    width: 9.8rem;
+  }
+  
+  .philisophy-mob__inner-bg--four {
+    width: 8rem;
+  }
+
+  .philisophy-mob__inner-bg--five {
+    width: 14rem;
+  }

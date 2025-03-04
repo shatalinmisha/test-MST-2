@@ -1,0 +1,19 @@
+html {
+  --refRes: 1400;
+  font-size: calc(100vw / var(--refRes) * 16);
+}
+
+@media (max-width: 768px) {
+  html {
+    --refRes: 768;
+    font-size: calc(100vw / var(--refRes) * 16);
+  }
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
